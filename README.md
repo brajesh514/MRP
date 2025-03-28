@@ -4,6 +4,7 @@
 
 <h2>Project Description</h2>
 The Data Talent Tracker is an interactive Power BI dashboard designed for HR professionals, recruiters, and job seekers to analyze job market trends, in-demand skills, and salary benchmarks. The dashboard provides data-driven insights to help organizations make informed hiring decisions and for job seekers to align their skills with market demands.
+
 ## Table of Contents
 
 - [Installation](#installation)
