@@ -1,80 +1,81 @@
 # MRP Project
 <h1>Data Talent Tracker</h1>
-📊 A comprehensive job market analysis dashboard for data-driven hiring decisions
+📊  A Power BI Dashboard for Job Market Analysis and Skills Tracking
 
 <h2>Project Description</h2>
-The Data Talent Tracker is an interactive dashboard designed to help HR professionals, recruiters, and job seekers gain real-time insights into the job market. With advanced data visualization, users can analyze hiring trends, salary benchmarks, in-demand skills, and market competitiveness. This project empowers decision-makers to navigate job market challenges with data-driven strategies.
-
+The Data Talent Tracker is an interactive Power BI dashboard designed for HR professionals, recruiters, and job seekers to analyze job market trends, in-demand skills, and salary benchmarks. The dashboard provides data-driven insights to help organizations make informed hiring decisions and for job seekers to align their skills with market demands.
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Data Sources](#data-sources)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Live Dashboard](#live-dashboard)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 To set up the project locally, follow these steps:
-
-Clone the repository
-<p>Code in Bash:</p>
-git clone https://github.com/brajesh514/DataTalentTracker.git
 <br>
+-Clone the repository
+<p>Code:
+git clone https://github.com/brajesh514/DataTalentTracker.git<br>
 cd DataTalentTracker
-<br>
-Create and activate a virtual environment
-<p>Code in Bash</p>
-python -m venv venv  
+</p>
+-Create and activate a virtual environment
+<p>Code:
+python -m venv venv  <br>
 source venv/bin/activate  # macOS/Linux  
 venv\Scripts\activate  # Windows  
-Install dependencies
-<p>Code in Bash</p>
+</p>
+-Install dependencies
+<p>Code:
 pip install -r requirements.txt  
-Usage
-To run the dashboard locally:
+</p>
+-Generate synthetic job market data:
+<p>Code:
+python generate_data.py</p>
 
-bash
-Copy
-Edit
-python app.py
-Example Use Cases
-Recruiters can filter job listings by industry, salary range, and job type.
+## Usage
+Run the Python script to generate synthetic job market data, then load it into Power BI:
+<p>Code:
+python generate_data.py</p>
+-Import synthetic_job_data.csv into Power BI.
+-Load the JobMarketDashboard.pbix file.
+-Interact with the Job Market Analysis, Skills Dashboard, and Time-Series Trends tabs.
 
-Job seekers can track salary progression and find high-demand skills.
+## Data Sources
 
-HR teams can analyze hiring difficulty and plan strategic recruitment efforts.
+The dashboard integrates the synthetic dataset generated above. In real-world applications, it can be combined with:
 
-Features
-✔ Real-time job market insights with interactive filters
-✔ Hiring trends analysis (heatmaps, line charts, and bar charts)
-✔ Salary benchmarking across industries and experience levels
-✔ In-demand skills tracking to align with market needs
-✔ Hiring difficulty score to assess market competitiveness
-✔ Notifications & Alerts Panel for job market trend updates
+Job postings APIs (LinkedIn, Indeed, Glassdoor)
 
-Project Structure
-graphql
-Copy
-Edit
+Government labor data (BLS, ONS)
+
+HR and employer reports
+## Features
+✔ Real-time job market insights with interactive filters<br>
+✔ Hiring trends analysis (heatmaps, line charts, and bar charts)<br>
+✔ Salary benchmarking across industries and experience levels<br>
+✔ In-demand skills tracking to align with market needs<br>
+
+## Project Structure
 DataTalentTracker/  
 ├── data/                     # Data sources and processing scripts  
 ├── src/                      # Main application code  
-│   ├── app.py                # Flask/Django app (backend)  
 │   ├── dashboard.py          # Dashboard logic  
 │   ├── visualizations/       # Chart components  
-│   ├── filters.py            # Filtering mechanisms  
 ├── templates/                # HTML templates (if applicable)  
 ├── static/                   # CSS and JavaScript files  
 ├── requirements.txt          # Dependencies  
 ├── README.md                 # Documentation  
 └── LICENSE                   # Licensing information  
-📊 Live Dashboard
+## Live Dashboard
 🔗 View the interactive Power BI dashboard here:
+<br>
 👉 View Dashboard
 
-Contributing
+## Contributing
 We welcome contributions! Please:
 
 Fork the repository
