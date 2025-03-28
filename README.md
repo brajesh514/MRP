@@ -3,13 +3,13 @@
 📊  Optimizing hiring strategies with AI-powered analytics
 
 <h2>Project Description</h2>
-Startups face significant challenges in recruitment due to limited resources, lack of brand recognition, and inefficient hiring processes. This project develops a data-driven recruitment analytics platform to:
+This Power BI dashboard provides key insights into recruitment analytics, helping startups optimize hiring strategies, reduce costs, and improve candidate quality. Key features include:
 
-Optimize hiring strategies
+Recruitment campaign performance tracking
 
-Reduce cost per hire
+Cost-per-hire analysis
 
-Improve candidate quality using AI-powered insights
+Interactive data visualization
 
 ## Table of Contents
 
@@ -26,8 +26,8 @@ To set up the project locally, follow these steps:
 <br>
 -Clone the repository
 <p>Code:
-git clone https://github.com/brajesh514/DataTalentTracker.git<br>
-cd DataTalentTracker
+git clone https://github.com/brajesh514/powerbi-recruitment-dashboard.git<br>
+cd powerbi-recruitment-dashboard
 </p>
 -Create and activate a virtual environment
 <p>Code:
@@ -39,25 +39,22 @@ venv\Scripts\activate  # Windows
 <p>Code:
 pip install -r requirements.txt  
 </p>
--Generate synthetic job market data:
+-Generate synthetic data:
 <p>Code:
 python generate_data.py</p>
 
 ## Usage
-Run the Python script to generate synthetic job market data, then load it into Power BI:
+Run the Python script to generate synthetic data, then load it into Power BI:
 <p>Code:
 python generate_data.py</p>
--Import synthetic_job_data.csv into Power BI.
--Load the JobMarketDashboard.pbix file.
--Interact with the Job Market Analysis, Skills Dashboard, and Time-Series Trends tabs.
+-Import data files into Power BI.
+-Load the RecruitmentDashboard.pbix file.
 
 ## Data Sources
 
 The dashboard integrates the synthetic dataset generated above. In real-world applications, it can be combined with:
 
 Job postings APIs (LinkedIn, Indeed, Glassdoor)
-
-Government labor data (BLS, ONS)
 
 HR and employer reports
 ## Features
@@ -67,16 +64,15 @@ HR and employer reports
 ✔ In-demand skills tracking to align with market needs<br>
 
 ## Project Structure
-DataTalentTracker/  
-├── data/                     # Data sources and processing scripts  
-├── src/                      # Main application code  
-│   ├── dashboard.py          # Dashboard logic  
-│   ├── visualizations/       # Chart components  
-├── templates/                # HTML templates (if applicable)  
-├── static/                   # CSS and JavaScript files  
-├── requirements.txt          # Dependencies  
-├── README.md                 # Documentation  
-└── LICENSE                   # Licensing information  
+powerbi-recruitment-dashboard/
+├── data/
+│   ├── recruitment_data.xlsx
+├── dashboard/
+│   ├── RecruitmentDashboard.pbix
+├── images/
+│   ├── dashboard-preview.png
+├── README.md
+└── LICENSE
 ## Live Dashboard
 🔗 View the interactive Power BI dashboard here:
 <br>
