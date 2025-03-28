@@ -1,9 +1,15 @@
 # MRP Project
-<h1>Data Talent Tracker</h1>
-📊  A Power BI Dashboard for Job Market Analysis and Skills Tracking
+<h1>Streamlining Recruitment for Startups through Analytics</h1>
+📊  Optimizing hiring strategies with AI-powered analytics
 
 <h2>Project Description</h2>
-The Data Talent Tracker is an interactive Power BI dashboard designed for HR professionals, recruiters, and job seekers to analyze job market trends, in-demand skills, and salary benchmarks. The dashboard provides data-driven insights to help organizations make informed hiring decisions and for job seekers to align their skills with market demands.
+Startups face significant challenges in recruitment due to limited resources, lack of brand recognition, and inefficient hiring processes. This project develops a data-driven recruitment analytics platform to:
+
+Optimize hiring strategies
+
+Reduce cost per hire
+
+Improve candidate quality using AI-powered insights
 
 ## Table of Contents
 
