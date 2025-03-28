@@ -64,15 +64,16 @@ HR and employer reports
 ✔ In-demand skills tracking to align with market needs<br>
 
 ## Project Structure
-powerbi-recruitment-dashboard/
-├── data/
-│   ├── recruitment_data.xlsx
-├── dashboard/
-│   ├── RecruitmentDashboard.pbix
-├── images/
-│   ├── dashboard-preview.png
-├── README.md
-└── LICENSE
+<p>powerbi-recruitment-dashboard/<br>
+├── data/<br>
+│   ├── recruitment_data.xlsx<br>
+├── dashboard/<br>
+│   ├── RecruitmentDashboard.pbix<br>
+├── images/<br>
+│   ├── dashboard-preview.png<br>
+├── README.md<br>
+└── LICENSE<br>
+
 ## Live Dashboard
 🔗 View the interactive Power BI dashboard here:
 <br>
